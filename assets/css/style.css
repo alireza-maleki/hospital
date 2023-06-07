@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Vazir";
+  src: url("../fonts/Vazir.eot"), url("../fonts/Vazir.ttf") format("ttf"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.woff2") format("woff2");
+}
+
+body {
+  font-family: "Vazir";
+}
+
+.hospital {
+  filter: invert(50%) sepia(100%) hue-rotate(181deg) brightness(50%) saturate(5);
+}
+
+.bedroom {
+  filter: invert(100%) sepia(100%) hue-rotate(-10deg) brightness(220%)
+    saturate(2);
+}
+
+.cancel {
+  filter: invert(5%) sepia(100%) hue-rotate(-100deg) brightness(100%)
+    saturate(0);
+}
